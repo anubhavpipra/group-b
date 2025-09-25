@@ -1,2 +1,2 @@
 #!/bin/bash
-service codedeploy-agent stop
+sudo service codedeploy-agent stop
