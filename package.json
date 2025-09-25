@@ -6,6 +6,7 @@
     "start": "nodemon server.js"
   },
   "dependencies": {
+    "aws-sdk": "^2.1692.0",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
   }
