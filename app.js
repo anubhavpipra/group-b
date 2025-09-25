@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
   res.send(`
     <h1>Hello, ${name}!</h1>
     <p>Environment: ${environment}</p>
-    <p>DB Configured: ${dbConfigured}</p>
+    <p>Is DB Configured: ${dbConfigured}</p>
   `);
 });
 
