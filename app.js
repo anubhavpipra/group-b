@@ -10,7 +10,7 @@ let dbConfigured = '',
 
 // Load parameters from Parameter Store
 ssm.getParameters({
-  Names: ['/group-b/environment', '/group-b/name', '/group-b/db-configured'],
+  Names: ['/group-b/environment', '/group-b/name', '/group-b/dbConfigured'],
   WithDecryption: true
 }).promise().then(data => {
   environment = data.Parameters[0].Value;
